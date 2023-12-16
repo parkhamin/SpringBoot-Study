@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.jwt.JwtApplicationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-16T16:43:32" hostname="LAPTOP-PFRCQMMU" time="1.306">
+  <properties/>
+  <testcase name="tokenCreate()" classname="com.example.jwt.JwtApplicationTests" time="1.296"/>
+  <testcase name="tokenValidation()" classname="com.example.jwt.JwtApplicationTests" time="0.003"/>
+  <testcase name="contextLoads()" classname="com.example.jwt.JwtApplicationTests" time="0.003"/>
+  <system-out><![CDATA[01:43:29.201 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.jwt.JwtApplicationTests]: JwtApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:43:29.358 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.jwt.JwtApplication for test class com.example.jwt.JwtApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.6)
+
+2023-12-17T01:43:30.069+09:00  INFO 15452 --- [    Test worker] com.example.jwt.JwtApplicationTests      : Starting JwtApplicationTests using Java 20.0.1 with PID 15452 (started by parkh in C:\project\12. jwt\jwt)
+2023-12-17T01:43:30.074+09:00  INFO 15452 --- [    Test worker] com.example.jwt.JwtApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-12-17T01:43:32.080+09:00  INFO 15452 --- [    Test worker] com.example.jwt.JwtApplicationTests      : Started JwtApplicationTests in 2.384 seconds (process running for 4.624)
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo5MjMsImV4cCI6MTcwMjc0NTYxM30.WKTv-HqWCh4apSDNS_qekipphZzswO6YbjGxhx06BZU
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
